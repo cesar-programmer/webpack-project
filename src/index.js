@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved */
 import Template from '@templates/Template.js';
 import '@styles/main.css';
 import '@styles/vasr.styl';

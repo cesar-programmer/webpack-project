@@ -1,4 +1,5 @@
-const API = process.env.API;
+/* eslint-disable consistent-return */
+const { API } = process.env;
 
 const getData = async (id) => {
   const apiURl = id ? `${API}${id}` : API;
